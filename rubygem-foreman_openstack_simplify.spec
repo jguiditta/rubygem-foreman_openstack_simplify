@@ -7,12 +7,12 @@
 
 Summary: Plugin for Foreman that simplifies the UI for purposes of OpenStack install
 Name: %{?scl_prefix}rubygem-%{gem_name}
-Version: 0.0.5
-Release: 2%{?dist}
+Version: 0.0.4
+Release: 1%{?dist}
 Group: Development/Languages
 License: MIT
 URL: https://github.com/jistr/foreman_openstack_simplify
-Source0: %{gem_name}-%{version}.gem
+Source0: https://rubygems.org/downloads/%{gem_name}-%{version}.gem
 Requires: %{?scl_prefix}rubygems
 Requires: %{?scl_prefix}rubygem(deface)
 Requires: foreman => 1.1
